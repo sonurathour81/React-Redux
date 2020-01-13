@@ -1,0 +1,56 @@
+.crtFrom{
+    display: flex;
+}
+.crtFrom button,
+.crtFrom input{
+    margin: 2px!important;
+}
+.btnManDiv{
+    display: flex;
+    flex-direction: row;
+}
+.btnManDiv button{
+    width: 50%;
+    font-size: 16px!important;
+}
+.mandiv{
+    background-color: #f3f3f3;
+}
+.forminside{
+    display: flex;
+    padding: 15px;
+    flex-direction: row;
+}
+
+
+.forminside input,
+.forminside button{
+    margin: 10px!important;
+    padding: 12px!important;
+    font-size: 18px!important;
+}
+
+.popupField label{
+    font-size: 17px!important;
+    color: #525252!important;
+    font-weight: 600!important;
+}
+
+.popupField input{
+    margin: 7px 0px!important;
+    padding: 12px!important;
+    font-size: 18px!important;
+}
+
+.tbaluicont{
+    padding: 25px;
+    box-shadow: 0px 2px 10px 8px rgba(0,0,0,.1);
+    margin: 25px;
+}
+
+.fulWithBtn{
+    width: 100%;
+    padding: 17px!important;
+    margin: 7px 0px!important;
+    font-size: 18px!important;
+}

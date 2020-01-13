@@ -1,0 +1,13 @@
+.h3Tage{
+    overflow: hidden;
+    width: 100%;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin-top: 10px!important;
+}
+.conthover h3:hover,
+.conthover p:hover{
+    color: #808080;
+    cursor: pointer;
+}

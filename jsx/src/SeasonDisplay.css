@@ -1,0 +1,66 @@
+.icon-left{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.icon-right{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.season-display{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.Winter{
+    background-color: aliceblue;
+}
+.Summer{
+    background-color: royalblue;
+}
+.season-display.Summer h1,
+.season-display.Summer i{
+    color: white;
+}
+.season-display.Winter h1,
+.season-display.Winter i{
+    color: #FF9800;
+}
+.season-error{
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    background: #9E9E9E;
+    color: white;
+}
+
+
+.disabl{
+    cursor: not-allowed;
+        pointer-events: none;
+        opacity: 0.7;
+
+        /*Button disabled - CSS color class*/
+        /* color: #c0c0c0; */
+        /* background-color: #ffffff; */
+}
+
+.comn-btn{
+    padding: 12px 18px;
+    background: #8BC34A;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    letter-spacing: .4px;
+}
+.remv-btn{
+    background: #ff0023;
+}
+.texth2 h2{
+    color: #9a9a9a;
+}
